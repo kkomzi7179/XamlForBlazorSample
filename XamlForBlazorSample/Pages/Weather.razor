@@ -34,6 +34,10 @@ else
             }
         </tbody>
     </table>
+    
+    <XamlForBlazor.XamlElement Type="@typeof(System.Windows.Controls.DataGrid)"
+                               ItemsSource="@forecasts"
+                               IsReadOnly="True" />
 }
 
 @code {
